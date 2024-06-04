@@ -8,7 +8,7 @@ export type State = {
 
 const useFetchStates = async (): Promise<State[]> => {
   try{
-    const response = await axios.get('http://localhost:3333/state');
+    const response = await axios.get('https://dropdown-api.onrender.com/state');
     const data = response.data.map((state: any) => ({
       id: state.id,
       name: decrypt(state.name),

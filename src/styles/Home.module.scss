@@ -35,6 +35,14 @@
     font-size: 18px;
     text-transform: uppercase;
   }
+
+  .inputNumber {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
 }
 
 

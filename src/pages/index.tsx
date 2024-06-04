@@ -16,6 +16,11 @@ export default function Home() {
           <span>Endereço</span>
           <input type="text"/>
         </div>
+        <City />
+          <div className={styles.inputs}>
+            <span>Número</span>
+            <input className={styles.inputNumber} type="number"  />
+          </div>
       </form>
     </>
   );
